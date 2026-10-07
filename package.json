@@ -1,0 +1,30 @@
+{
+  "name": "careermatch-ai",
+  "version": "1.0.0",
+  "description": "CareerMatch AI - Credit-Efficient Hackathon MVP",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "test": "node test-e2e.js && node test-api.js"
+  },
+  "keywords": [
+    "resume",
+    "analyzer",
+    "career",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "mammoth": "^1.13.0",
+    "multer": "^2.4.0",
+    "pdf-parse": "^2.4.5"
+  }
+}
